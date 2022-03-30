@@ -1,0 +1,24 @@
+{
+    "name": "atomino/mosaic",
+    "description": "Atomino Mosaic",
+    "keywords": ["Api"],
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Gergely Laborci",
+            "email": "gergely@laborci.hu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Atomino\\Mosaic\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-kernel": "^6.0",
+        "symfony/http-client": "^6.0",
+        "symfony/cache": "^6.0",
+        "atomino/util-attr": "1.*",
+        "atomino/util-code-finder": "1.*"
+    }
+}
