@@ -15,9 +15,9 @@
         }
     },
     "require": {
-        "symfony/http-kernel": "^6.0",
-        "symfony/http-client": "^6.0",
-        "symfony/cache": "^6.0",
+        "symfony/http-kernel": "^5.0",
+        "symfony/http-client": "^5.0",
+        "symfony/cache": "^5.0",
         "atomino/util-attr": "1.*",
         "atomino/util-code-finder": "1.*"
     }
